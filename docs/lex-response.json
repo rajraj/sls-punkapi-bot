@@ -1,0 +1,24 @@
+{
+  "dialogAction": {
+    "type": "Close",
+    "fulfillmentState": "Fulfilled or Failed",
+    "message": {
+      "contentType": "PlainText or SSML or CustomPayload",
+      "content": "Message to convey to the user. For example, Thanks, your pizza has been ordered."
+    },
+    "responseCard": {
+      "version": 1,
+      "contentType": "application/vnd.amazonaws.card.generic",
+      "genericAttachments": [{
+        "title": "card-title",
+        "subTitle": "card-sub-title",
+        "imageUrl": "URL of the image to be shown",
+        "attachmentLinkUrl": "URL of the attachment to be associated with the card",
+        "buttons": [{
+          "text": "button-text",
+          "value": "Value sent to server on button click"
+        }]
+      }]
+    }
+  }
+}

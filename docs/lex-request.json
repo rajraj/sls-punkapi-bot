@@ -1,0 +1,28 @@
+{
+  "messageVersion": "1.0",
+  "invocationSource": "FulfillmentCodeHook",
+  "userId": "abc123",
+  "sessionAttributes": {},
+  "requestAttributes": null,
+  "bot": {
+    "name": "BeerBot",
+    "alias": "$LATEST",
+    "version": "$LATEST"
+  },
+  "outputDialogMode": "Text",
+  "currentIntent": {
+    "name": "GetBeerForFood",
+    "slots": {
+      "Food": "pizza"
+    },
+    "slotDetails": {
+      "Food": {
+        "resolutions": [],
+        "originalValue": "pizza"
+      }
+    },
+    "confirmationStatus": "None",
+    "sourceLexNLUIntentInterpretation": null
+  },
+  "inputTranscript": "pizza"
+}
