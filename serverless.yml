@@ -5,7 +5,7 @@ provider:
   runtime: ruby2.5
   region: eu-west-1
   stackTags:
-    author: "Raj Kumar"
+    author: "rajraj"
 
 functions:
   punkapi:
